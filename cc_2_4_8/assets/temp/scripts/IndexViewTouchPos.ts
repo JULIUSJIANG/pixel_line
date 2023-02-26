@@ -15,4 +15,13 @@ export default class IndexViewTouchPos {
     {
         this.evter = evter;
     }
+
+    /**
+     * 右向量 x
+     */
+    vecLeftX: number;
+    /**
+     * 右向量 y
+     */
+    vecLeftY: number;
 }
